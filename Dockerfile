@@ -3,7 +3,7 @@ FROM alpine:3.11
 # set label
 LABEL maintainer="NG6"
 
-ARG BaiduPCSGo_VER=3.7.0
+ARG BaiduPCSGo_VER=v3.7.0
 
 COPY  root /
 
